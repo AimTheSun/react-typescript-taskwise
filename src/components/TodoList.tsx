@@ -1,14 +1,13 @@
 import React from "react";
-import "./styles.css";
-import { Todo } from "../model";
+import { Todo } from "../models/models";
 import SingleTodo from "./SingleTodo.tsx";
 import { Droppable } from "react-beautiful-dnd";
 
 interface props {
-  todos: Todo[];
-  setTodos: React.Dispatch<React.SetStateAction<Todo[]>>;
-  CompletedTodos: Todo[];
-  setCompletedTodos: React.Dispatch<React.SetStateAction<Todo[]>>;
+  todos: Array<Todo>;
+  setTodos: React.Dispatch<React.SetStateAction<Array<Todo>>>;
+  setCompletedTodos: React.Dispatch<React.SetStateAction<Array<Todo>>>;
+  CompletedTodos: Array<Todo>;
 }
 
 const TodoList: React.FC<props> = ({
@@ -59,12 +58,12 @@ const TodoList: React.FC<props> = ({
                 setTodos={setCompletedTodos}
               />
             ))}
-            {provided.placeholder} /* Produces an empty placeholder for the
-            other item */
+            {provided.placeholder}
           </div>
-        )} 
+        )}
       </Droppable>
     </div>
   );
 };
+
 export default TodoList;
