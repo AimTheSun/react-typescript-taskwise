@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-typescript-taskwise/static/css/main.45afd7c9.css",
+    "main.js": "/react-typescript-taskwise/static/js/main.e102256d.js",
+    "index.html": "/react-typescript-taskwise/index.html",
+    "main.45afd7c9.css.map": "/react-typescript-taskwise/static/css/main.45afd7c9.css.map",
+    "main.e102256d.js.map": "/react-typescript-taskwise/static/js/main.e102256d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45afd7c9.css",
+    "static/js/main.e102256d.js"
+  ]
+}
