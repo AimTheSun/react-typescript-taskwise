@@ -1,5 +1,5 @@
 
-# TaskWise 
+# TaskWise - Task Management
 
 TaskWise is a simple yet powerful task management app built with React and TypeScript. This project helped me dive into the world of TypeScript and learn how to effectively use it with React Hooks, such as `useState`, `useRef`, and `useReducer`. It was my first fully developed project using TypeScript, and I gained a deeper understanding of how to pass props between components by defining prop types, ensuring type safety, and improving maintainability.
 
