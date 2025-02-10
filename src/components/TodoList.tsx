@@ -59,9 +59,10 @@ const TodoList: React.FC<props> = ({
                 setTodos={setCompletedTodos}
               />
             ))}
-            {provided.placeholder}
+            {provided.placeholder} /* Produces an empty placeholder for the
+            other item */
           </div>
-        )}
+        )} 
       </Droppable>
     </div>
   );
